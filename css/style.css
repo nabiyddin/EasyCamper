@@ -1,0 +1,377 @@
+:root {
+  --white-color: #ffffff;
+  --silver-color: #f7f7f7;
+  --orange-color: #f78065;
+  --dark-ink-color: #3f3d56;
+  --montserrat-font: "Montserrat", sans-serif;
+  --merriweather-font: "Merriweather", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--merriweather-font);
+}
+
+p {
+  font-family: var(--montserrat-font);
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Start of hero styling */
+#hero {
+  background: url("../images/hero_image.png");
+  width: 100%;
+  height: 650px;
+}
+
+.navbar-wrapper {
+  padding: 30px 122px 0 122px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-texts-wrapper {
+  padding: 96px 156px 75px 62px;
+  position: absolute;
+  top: 384px;
+  left: 63px;
+  width: 741px;
+  height: 537px;
+  background: var(--white-color);
+  box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero-texts-wrapper h1 {
+  font-size: 39px;
+  line-height: 49px;
+  font-weight: 700;
+}
+
+.hero-texts-wrapper p {
+  margin-top: 29px;
+  margin-bottom: 29px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  opacity: 60%;
+}
+
+.hero-texts-wrapper span {
+  color: var(--orange-color);
+}
+
+.hero-texts-wrapper button {
+  padding: 20px 77px 20px 69px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  color: var(--white-color);
+  background: var(--orange-color);
+  font-family: var(--montserrat-font);
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 700;
+}
+/* End of hero styling */
+
+/* Start of cards styling */
+#cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 41px;
+  padding: 399px 81px 0 119px;
+}
+
+.card-wrapper {
+  width: 85%;
+}
+
+.card-wrapper h1 {
+  margin-top: 84px;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+}
+
+.card-wrapper p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  opacity: 50%;
+}
+
+.first {
+  margin-top: 75px !important;
+  margin-bottom: 85px !important;
+}
+
+.last {
+  margin-top: 40px !important;
+  margin-bottom: 60px !important;
+}
+
+.card-wrapper span {
+  color: var(--orange-color);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+/* End of cards styling */
+
+/* Start of making styling */
+#making {
+  padding: 240px 102px 0 100px;
+}
+
+#making h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+}
+
+.making-cards-wrapper {
+  margin-top: 108px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 46px;
+}
+
+.making-card {
+  width: 100%;
+}
+
+.making-card h3 {
+  margin-top: 64px;
+  margin-bottom: 31px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.making-card p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  opacity: 50%;
+}
+
+.making-card span {
+  color: var(--orange-color);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.making-card .show1 {
+  margin-bottom: 16px;
+}
+
+.making-card .show2 {
+  margin-bottom: 40px;
+}
+/* End of making styling */
+
+/* Start of join styling */
+#join {
+  padding: 263px 100px 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-texts-wrapper {
+  width: 25%;
+}
+
+.join-texts-wrapper h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+}
+
+.join-texts-wrapper p {
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+.join-texts-wrapper button {
+  padding: 20px 91.5px 20px 83.5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  color: var(--white-color);
+  background: var(--orange-color);
+  font-family: var(--montserrat-font);
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 700;
+}
+
+.join-images-wrapper {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 49px;
+}
+
+.join-img img {
+  display: block;
+  width: 100%;
+}
+
+.join-img h4 {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+}
+
+.join-img p {
+  margin-top: 8px;
+  margin-bottom: 11px;
+  color: var(--dark-ink-color);
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.join-img span {
+  color: var(--orange-color);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--montserrat-font);
+}
+/* End of join styling */
+
+/* Start of advantages styling */
+#advantages {
+  padding: 232px 100px 251px 100px;
+}
+
+#advantages h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+}
+.advantages-cards-wrapper {
+  margin-top: 108px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 41px;
+}
+
+.advantages-card h3 {
+  margin: 64px 0 52px 0;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.advantages-card p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  opacity: 50%;
+}
+/* End of advantages styling */
+
+/* Start of footer styling */
+#footer {
+  padding: 96px 100px 63px 100px;
+  background: var(--silver-color);
+}
+
+.footer-texts-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main-text {
+  width: 25%;
+}
+
+.footer-main-text h1 {
+  margin-top: 16px;
+  font-size: 48px;
+  line-height: 61px;
+  font-weight: 700;
+}
+
+.footer-main-text h3 {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+}
+
+.footer-list-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 120px;
+  width: 70%;
+}
+
+.footer-list-items h4 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+}
+
+.footer-list-items div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-list-items p {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.footer-bottom-texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #b9b4b4;
+  margin-top: 85px;
+  padding-top: 28px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.footer-bottom-texts div {
+  display: flex;
+  gap: 48px;
+}
+/* End of footer styling */
